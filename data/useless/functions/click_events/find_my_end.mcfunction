@@ -1,0 +1,1 @@
+tag @e[tag=useless.click_events.owner_match] remove useless.click_events.owner_match

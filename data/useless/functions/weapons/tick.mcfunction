@@ -1,0 +1,1 @@
+function useless:weapons/useless_sword/tick
