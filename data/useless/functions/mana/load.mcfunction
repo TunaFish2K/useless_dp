@@ -19,5 +19,8 @@ scoreboard players set # useless.stats.MANA_REGEN_SPEED 10
 scoreboard objectives remove useless.stats.mana_use
 scoreboard objectives add useless.stats.mana_use dummy
 
-scoreboard objectives remove useless.stats.mana_use_mem
-scoreboard objectives add useless.stats.mana_use_mem dummy
+scoreboard objectives remove useless.stats.current_exp
+scoreboard objectives add useless.stats.current_exp dummy
+
+scoreboard objectives remove useless.stats.current_exp_mem
+scoreboard objectives add useless.stats.current_exp_mem dummy

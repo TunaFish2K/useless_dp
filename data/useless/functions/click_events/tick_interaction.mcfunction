@@ -9,3 +9,8 @@ execute if score @s useless.click_events.interact_uuid0 matches -2147483648..214
 
 execute store result score @s useless.click_events.attack_uuid0_mem run data get entity @s attack.player[0]
 execute store result score @s useless.click_events.interact_uuid0_mem run data get entity @s interaction.player[0]
+
+function useless:click_events/find_owner
+execute at @s unless entity @a[tag=useless.click_events.owner_match,distance=..2] run tag @s add suicide
+function useless:click_events/find_owner_end
+execute as @s[tag=suicide] run kill @s

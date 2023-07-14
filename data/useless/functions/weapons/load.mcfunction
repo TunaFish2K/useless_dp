@@ -1,0 +1,1 @@
+function useless:weapons/shadow_sentry/load

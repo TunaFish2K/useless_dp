@@ -1,0 +1,1 @@
+scoreboard players add @s[nbt={SelectedItem:{tag:{id:"useless:shadow_sentry"}}}] useless.stats.mana_max 20

@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:netherite_hoe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{id:\"useless:shadow_sentry\",click_events:true,display:{Name:'{\"text\":\"影哨\",\"italic\": false,\"color\": \"dark_purple\"}'},HideFlags:6,Unbreakable:1b,CustomModelData:11450001}"
+						},
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                [{"text": "魔力","color": "white","italic": false}," ",{"text": "+20","color": "aqua","italic": false}],
+                                [{"text": "狙击","color": "gold","italic": false}," ",{"text": "按[左键]","color": "yellow","italic": false,"bold": true}],
+                                {"text": "在暗处给敌人阴险一击, 造成 6 点伤害,","color": "gray","italic": false},
+                                {"text": "子弹每飞行4格, 伤害增加 1 点。","color": "gray","italic": false},
+                                [{"text": "魔力消耗:","color": "dark_gray","italic": false}," ",{"text": "5","color": "aqua","italic": false}],
+                                [{"text": "冷却时间:","color": "dark_gray","italic": false}," ",{"text": "1 秒","color": "green","italic": false}]
+                            ]
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "name": "damage",
+                                    "slot": "mainhand",
+                                    "amount": -1,
+                                    "operation": "addition"
+                                }
+                            ]
+                        }
+					]
+				}
+			]
+		}
+	]
+}

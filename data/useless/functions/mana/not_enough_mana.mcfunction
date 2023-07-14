@@ -1,0 +1,1 @@
+tellraw @s {"text": "魔力不足!","color":"red","italic":false}
