@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{id:\"useless:the_cake_is_a_lie\",click_events:true,display:{Name:'{\"text\":\"蛋糕?\",\"italic\": false,\"color\": \"gold\"}'},HideFlags:6,Unbreakable:1b,CustomModelData:11450003}"
+						},
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                [{"text": "蛋糕是个谎言","color": "gold","italic": false}," ",{"text": "按[右键]","color": "yellow","italic": false,"bold": true}],
+                                {"text": "恢复5点饱食度。","color": "gray","italic": false},
+                                {"text": "蛋糕是个谎言,但魔法不是。","color": "gray","italic": false},
+                                [{"text": "魔力消耗:","color": "dark_gray","italic": false}," ",{"text": "5","color": "aqua","italic": false}],
+                                [{"text": "冷却时间:","color": "dark_gray","italic": false}," ",{"text": "5 秒","color": "green","italic": false}]
+                            ]
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "name": "damage",
+                                    "slot": "mainhand",
+                                    "amount": 0,
+                                    "operation": "addition"
+                                }
+                            ]
+                        }
+					]
+				}
+			]
+		}
+	]
+}

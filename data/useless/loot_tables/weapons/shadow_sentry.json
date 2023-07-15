@@ -15,9 +15,11 @@
                             "function": "set_lore",
                             "lore": [
                                 [{"text": "魔力","color": "white","italic": false}," ",{"text": "+20","color": "aqua","italic": false}],
-                                [{"text": "狙击","color": "gold","italic": false}," ",{"text": "按[左键]","color": "yellow","italic": false,"bold": true}],
+                                [{"text": "狙击","color": "gold","italic": false}," ",{"text": "按[右键]","color": "yellow","italic": false,"bold": true}],
                                 {"text": "在暗处给敌人阴险一击, 造成 6 点伤害,","color": "gray","italic": false},
                                 {"text": "子弹每飞行4格, 伤害增加 1 点。","color": "gray","italic": false},
+                                [{"text": "双持狙击","color": "gold","italic": false}," ",{"text": "按[左键]","color": "yellow","italic": false,"bold": true}],
+                                {"text": "双持两把影哨, 可以进行多次攻击，冷却时间独立。","color": "gray","italic": false},
                                 [{"text": "魔力消耗:","color": "dark_gray","italic": false}," ",{"text": "5","color": "aqua","italic": false}],
                                 [{"text": "冷却时间:","color": "dark_gray","italic": false}," ",{"text": "1 秒","color": "green","italic": false}]
                             ]

@@ -1,0 +1,50 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{id:\"useless:touch_of_abyss\",click_events:false,display:{Name:'{\"text\":\"渊之触\",\"italic\": false,\"color\": \"aqua\"}'},HideFlags:6,Unbreakable:1b,CustomModelData:11450004}"
+						},
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                [{"text": "伤害","color": "white","italic": false}," ",{"text": "+7","color": "red","italic": false}],
+                                [{"text": "攻击速度","color": "white","italic": false}," ",{"text": "+1.6","color": "red","italic": false}],
+                                "",
+                                [{"text": "神经损伤","color": "aqua","italic": false}," ",{"text": "被动","color": "yellow","italic": false,"bold": true}],
+                                [{"text":  "攻击使敌人获得一层神经损伤, 到达5层时对它施加5秒的","color": "gray","italic": false}," ",{"text":  "精神涣散","color": "white","italic": false}," ",{"text":  "效果。","color": "gray","italic": false}],
+                                {"text": "效果: 精神涣散","color": "white","italic": false},
+                                [{"text": "不可移动, 失明, 每秒收到","color": "gray","italic": false},{"text": "6","color": "red","italic": false},{"text": "伤害。","color": "gray","italic": false}]
+                            ]
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "name": "damage",
+                                    "slot": "mainhand",
+                                    "amount": 6,
+                                    "operation": "addition"
+                                },
+                                {
+                                    "attribute": "generic.attack_speed",
+                                    "name": "atk_speed",
+                                    "slot": "mainhand",
+                                    "amount": -2.4,
+                                    "operation": "addition"
+                                }
+                            ]
+                        }
+					]
+				}
+			]
+		}
+	]
+}

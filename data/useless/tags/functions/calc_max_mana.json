@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "useless:weapons/shadow_sentry/mana"
+        "useless:weapons/shadow_sentry/mana",
+        "useless:armors/enchanted/chestplate/mana"
     ]
 }

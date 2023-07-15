@@ -1,0 +1,1 @@
+execute as @a[nbt={Inventory:[{Slot:102b,tag:{id:"useless:enchanted_chestplate"}}]}] run scoreboard players add @s useless.stats.mana_max 40

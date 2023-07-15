@@ -1,4 +1,6 @@
-scoreboard players set @s useless.weapons.shadow_sentry.cd 20
+scoreboard players set @s[tag=!useless.weapons.shadow_sentry.is_left] useless.weapons.shadow_sentry.cd 20
+scoreboard players set @s[tag=useless.weapons.shadow_sentry.is_left] useless.weapons.shadow_sentry.cd_left 20
+
 
 execute positioned ~ ~0.5 ~ run summon marker ~ ~ ~ {Tags:["useless.weapons.shadow_sentry.bullet","useless.weapon.shadow_sentry.new"]}
 
@@ -18,3 +20,5 @@ scoreboard players set @e[type=marker,tag=useless.weapons.shadow_sentry.bullet,t
 
 #no this tag
 tag @e[type=marker,tag=useless.weapons.shadow_sentry.bullet,tag=useless.weapon.shadow_sentry.new,limit=1,sort=nearest] remove useless.weapon.shadow_sentry.new
+
+tag @s remove useless.weapons.shadow_sentry.is_left
